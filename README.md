@@ -7,7 +7,13 @@ Final Project Website Repository: https://github.com/Graph-Theory-Coding-Project
 
 Guys fill this stuff in lmaoaoaooa
 
-
+## Group Members
+| Name                              | NRP         | Contribution          |
+|-----------------------------------|-------------|-----------------------|
+| Fadhil Revinno Hairiman           | 5025231002  | Website Creation & Frontend Development  |
+| R. Rafif Aqil Aabid Hermawan      | 5025231069  | Project Planning, Quality Assurance, and Report Creation |
+| Rogelio Kenny Arisandi            | 5025231074  | Algorithm Creation & Backend Development |
+| Matteo Dennequin                  | 5999241043  | Project Planning, Quality Assurance, and Report Creation |
 
 # Background
 
