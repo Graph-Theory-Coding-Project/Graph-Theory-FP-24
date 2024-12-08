@@ -21,7 +21,7 @@ When planning a holiday around the world, it's important to optimize your journe
 
 ![Visualization](img/background-1.png)
 
-## Requrirement Specificaiton
+## Requirement Specificaiton
 We wanted to make our tool as comprehensive as possible by offering users the option of searching all the world's airports, so that they can plan trips at both national and international level. 
 To make our tool as accessible as possible, we need to provide visibility of the optimal path found. By using different data visualisation libraries and setting up a website, the user can obtain a clear and visible answer on a dynamic planisphere.
 
