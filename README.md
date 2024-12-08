@@ -137,11 +137,11 @@ To run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Graph-Theory-Coding-Project/Graph-Theory-FP-24.git
+   git clone https://github.com/Graph-Theory-Coding-Project/Final-Project-Website.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd project
+   cd Final-Project-Website
    ```
 3. Install the required dependencies:
    ```bash
