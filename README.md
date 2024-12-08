@@ -90,7 +90,7 @@ All calculations and rendering are handled by the backend using Python. The gene
 
 Example:
 ```html
-<iframe src="/static/m_path_map.html" width="100%" height="500"></iframe>
+<iframe class="rounded-xl" src="{{ url_for('static', filename='m_path_map.html') }}" width="1280" height="720"></iframe>
 ```
 
 By placing the `m_path_map.html` file in the `static` folder, Flask automatically detects and serves it. If set up correctly, the map will appear as shown below:
