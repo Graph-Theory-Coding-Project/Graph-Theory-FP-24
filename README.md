@@ -132,5 +132,3 @@ Feel free to fork this repository, submit issues, and send pull requests. Contri
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 ```
-
-Replace placeholder paths like `path/to/map-preview-image.png` and `path/to/input-ui-image.png` with actual paths to your screenshots or images in the repository. This README format includes all necessary details and presents them in a clear, professional manner for GitHub.
