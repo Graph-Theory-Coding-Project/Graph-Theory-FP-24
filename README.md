@@ -100,11 +100,10 @@ Example:
 
 By placing the `m_path_map.html` file in the `static` folder, Flask automatically detects and serves it. If set up correctly, the map will appear as shown below:
 
-![Map Preview](path/to/map-preview-image.png) <!-- Replace with an actual screenshot -->
+![image](https://github.com/user-attachments/assets/1e7ae2d6-d608-488b-b47e-0630c895e12a)
 
 ---
 
-![image](https://github.com/user-attachments/assets/1e7ae2d6-d608-488b-b47e-0630c895e12a)
 
 
 ## User Input
