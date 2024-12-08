@@ -63,7 +63,7 @@ To run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Graph-Theory-Coding-Project/Graph-Theory-FP-24.git
    ```
 2. Navigate to the project directory:
    ```bash
