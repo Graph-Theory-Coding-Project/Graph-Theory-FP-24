@@ -78,7 +78,8 @@ First nodes are created based on the selected cities, then the distance between 
 ## Prim's algorithm
 For our first implementation, Prim’s algorithm is utilized.
 
-![Prim addEdge function](img/methodology-prims-addEdge.png)
+![image](https://github.com/user-attachments/assets/2aa09129-0fba-4958-9fa4-e3f787179b79)
+
 
 Two functions are created for this methodology, first is the addEdge function for creating a new graph after running an algorithm. 
 
