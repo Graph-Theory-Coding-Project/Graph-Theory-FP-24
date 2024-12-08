@@ -50,22 +50,9 @@ pip install -r requirements.txt
 ## Project Structure
 
 The project is structured as follows:
-```
-project/
-│
-├── static/
-│   ├── css/
-│   ├── js/
-│   └── m_path_map.html
-│
-├── templates/
-│   └── index.html
-│
-├── app.py
-└── requirements.txt
-```
 
-![image](https://github.com/user-attachments/assets/6139e402-3e75-483c-9771-42bfe783989f)
+![image](https://github.com/user-attachments/assets/266f59e5-5a94-47ac-9840-525e169a045e)
+
 
 
 ---
