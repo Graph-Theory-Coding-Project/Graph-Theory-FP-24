@@ -11,9 +11,9 @@ Guys fill this stuff in lmaoaoaooa
 | Name                              | NRP         | Contribution          |
 |-----------------------------------|-------------|-----------------------|
 | Fadhil Revinno Hairiman           | 5025231002  | Website Creation & Frontend Development  |
-| R. Rafif Aqil Aabid Hermawan      | 5025231069  | Project Planning, Quality Assurance, and Report Creation |
+| R. Rafif Aqil Aabid Hermawan      | 5025231069  | Project Planning, Quality Assurance, & Report Creation |
 | Rogelio Kenny Arisandi            | 5025231074  | Algorithm Creation & Backend Development |
-| Matteo Dennequin                  | 5999241043  | Project Planning, Quality Assurance, and Report Creation |
+| Matteo Dennequin                  | 5999241043  | Project Planning, Quality Assurance, & Report Creation |
 
 # Background
 
