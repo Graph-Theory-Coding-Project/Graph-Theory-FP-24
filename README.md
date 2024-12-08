@@ -3,9 +3,18 @@ Final Project Website Repository: https://github.com/Graph-Theory-Coding-Project
 
 
 
-# Trip Planner Web Application
+# ✈️ Fastravel ✈️
 
-This project aims to provide a user-friendly web application for individuals who want to plan trips efficiently. By implementing the algorithm we created, users can generate optimized travel plans with an interactive map. The application is built using the Flask framework for the backend and standard HTML for the frontend.
+Guys fill this stuff in lmaoaoaooa
+
+
+
+
+
+
+
+# Implementation
+
 
 ---
 
