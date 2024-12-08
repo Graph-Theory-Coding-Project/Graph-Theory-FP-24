@@ -153,9 +153,10 @@ To run the project locally:
    ```
 5. Open your browser and navigate to `http://127.0.0.1:5000`.
 
+![image](https://github.com/user-attachments/assets/30701acf-f4ea-4a9b-80fb-95627d18b97e)
+
 ---
 
-![image](https://github.com/user-attachments/assets/30701acf-f4ea-4a9b-80fb-95627d18b97e)
 
 
 ## Displaying the Map
