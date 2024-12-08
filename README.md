@@ -35,7 +35,7 @@ This optimization problem calls for the application of a TSP case. The Traveling
 
 Two main reasons stand out:
 - The point of departure must also be the point of arrival. We need to return home after our incredible stay.
-- For the sake of optimisation, and to vary our holidays, we'll only take the air route between two airports once: an Eulerian circuit.
+- For the sake of optimisation, and to vary our holidays, we'll only take the air route between two airports once: a Eulerian circuit.
 
 ### Prim's Algorithm
 
