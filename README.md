@@ -5,6 +5,10 @@ Final Project Website Repository: https://github.com/Graph-Theory-Coding-Project
 
 # ✈️ Fastravel ✈️
 
+Guys fill this stuff in lmaoaoaooa
+
+
+
 # Background
 ## Travelling the world
 When planning a holiday around the world, it's important to optimize your journey, both to avoid too long journey times and to save money. So the idea is to put in place a tool that will give us the shortest path from a set of airports that we have entered in advance. Using Python, based on various notions seen in lessons during the semester, the tool FasTravel was born.
@@ -113,22 +117,9 @@ pip install -r requirements.txt
 ## Project Structure
 
 The project is structured as follows:
-```
-project/
-│
-├── static/
-│   ├── css/
-│   ├── js/
-│   └── m_path_map.html
-│
-├── templates/
-│   └── index.html
-│
-├── app.py
-└── requirements.txt
-```
 
-![image](https://github.com/user-attachments/assets/6139e402-3e75-483c-9771-42bfe783989f)
+![image](https://github.com/user-attachments/assets/266f59e5-5a94-47ac-9840-525e169a045e)
+
 
 
 ---
@@ -139,7 +130,7 @@ To run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Graph-Theory-Coding-Project/Graph-Theory-FP-24.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -166,7 +157,7 @@ All calculations and rendering are handled by the backend using Python. The gene
 
 Example:
 ```html
-<iframe src="/static/m_path_map.html" width="100%" height="500"></iframe>
+<iframe class="rounded-xl" src="{{ url_for('static', filename='m_path_map.html') }}" width="1280" height="720"></iframe>
 ```
 
 By placing the `m_path_map.html` file in the `static` folder, Flask automatically detects and serves it. If set up correctly, the map will appear as shown below:
