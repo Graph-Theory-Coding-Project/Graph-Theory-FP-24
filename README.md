@@ -91,9 +91,100 @@ After those functions have been created, then the algorithm can be executed by p
 
 ![Prim visual](img/methodology-prims-visual.png)
 
-## Hungarian 
+# Hungarian Algorithm
 
-WIP
+This implementation uses a variant of the Hungarian algorithm known as the **Diagonal Completion Method**, as described in the research paper by J. R. King, X. Y. Zhang, and G. H. Jinx. The method consists of the following 8 steps:
+
+---
+
+## Step 1: Data Input
+We use a matrix that represents distances between the following cities:
+
+- Jakarta
+- Sydney
+- New York
+- Toronto
+- Buenos Aires
+- Tokyo
+- Madrid
+
+![image](https://github.com/user-attachments/assets/657c21e8-2e5c-4a66-bcc9-2fb1d5d424a9)
+
+
+---
+
+## Step 2: Matrix Reduction
+Reduce the matrix in the same way as in the Hungarian algorithm, using the following line of code:
+
+![image](https://github.com/user-attachments/assets/38f04896-0a6c-4de0-b101-fa4068590436)
+
+---
+
+## Step 3: Row and Penalty Calculation
+After we reduce the matrix, we have to compute the which 0’s has the biggest penalties, A row (column) penalty is defined as the difference between the next smallest element in the row (column) and the smallest element in that row (column) and represents the minimum premium that will be incurred when forced away from the choice of the smallest element in a row or a column by partial tour feasibility requirements. (A DIAGONAL COMPLETION AND 2-OPTIMAL PROCEDURE FOR THE TRAVELLING SALESMAN PROBLEM, J. R. KING,’ X. Y. ZHANG’ and G. H. JINX).
+
+---
+
+## Step 4: Sort the Feasible Tour (Sort the Penalties)
+The penalties for the paths are as follows:
+
+```
+P(1,4) = 1567.0510247500006
+P(2,6) = 1567.0510247500006
+P(4,1) = 1567.0510247500006
+P(6,2) = 1567.0510247500006
+P(0,3) = 345.05008419000023
+P(3,0) = 345.05008419000023
+P(3,5) = 345.05008419000023
+P(5,3) = 345.05008419000023
+P(2,1) = 0.0
+P(6,4) = 0.0
+```
+
+After that we can take from the top, and make a sub tours. (1, 4), (2, 6) (0, 3) (3, 5) are the sub tours. (4,1), (6,2) etc. will not be chosen as they are the closing link, resulting in closing the TSP path, as we can’t end the tour yet because we need to travel through all the nodes
+	We also need to mark the corresponding column an row, that has 0’s used in the penalties, just like in similar manner in hungarian algorithm. We can mark them by changing the matrix values into infinity as we dont need to check infinity and check those corresponding rows and column.
+
+The following function to Find the penalties and mark them are:
+
+![image](https://github.com/user-attachments/assets/17dda62f-023c-404d-acfe-3da4f5b4cbcd)
+
+![image](https://github.com/user-attachments/assets/b110ec16-4fc2-4e02-9482-8e8bfe842deb)
+
+
+---
+
+## Step 5: Rearrange the Matrix
+The row entries for the new matrix must be written in the sequence of the vertices which form the above feasible partial tour (i.e. in the order of 1, 4, 2, 6, 0, 3, 5 for the example problem). The column entries are then rearranged in such a way that enables all the O* elements to be located on the diagonal. Therefore, the column entries in the example problem will be, from the left to right, in the following order 4, 2, 6, 0, 3, 5, 1.
+
+---
+
+## Step 6: Construct Sub-Matrix
+Construct the sub-matrix for the closing links:
+
+- Paths: `[[1, 4], [2, 6], [0, 3, 5]]`
+- Closing links: `(4, 1)`, `(6, 2)`, `(5, 0)`
+
+![image](https://github.com/user-attachments/assets/2328bcde-ff39-44de-a51a-ce6cfdc8e110)
+
+
+---
+
+## Step 7: Repeat Steps 2 to 6
+Repeat steps 2 through 6 until all paths are constructed.
+
+---
+
+## Step 8: Initial Feasible Solution (IFS)
+Once all paths are connected, add the starting point to complete the TSP solution:
+
+```
+Final TSP Path: [1, 4, 2, 6, 0, 3, 5, 1]
+```
+
+---
+
+### References:
+- J. R. King, X. Y. Zhang, G. H. Jinx. "A Diagonal Completion and 2-Optimal Procedure for the Travelling Salesman Problem."
 
 # Implementation
 
