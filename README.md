@@ -187,7 +187,9 @@ Final TSP Path: [1, 4, 2, 6, 0, 3, 5, 1]
 - J. R. King, X. Y. Zhang, G. H. Jinx. "A Diagonal Completion and 2-Optimal Procedure for the Travelling Salesman Problem."
 
 # Implementation
+---
 
+In order for this project to be useful for the average person, we decided to implement the algorithm that we created so that we can create a web-application for people who want to plan trips. To create this web application, we used the flask framework offered by python. For the tech stack we used python for the backend and regular HTML for the frontend to display and fetch the information needed to the users. Below are the required dependencies that need to be imported for this project to work.
 
 ---
 
@@ -251,6 +253,7 @@ To run the project locally:
 
 
 ## Displaying the Map
+Since all the calculations and rendering have been done from the backend using python, all we have to do is to connect it in html. The generated map has been saved to the m_path_map.html file, therefore we want to display that map in our main html. To do this we can use the iframe feature in html and by adding the source url to the m_path_map.html. Since we’re using the flask framework it will automatically detect that this file is inside the “static” folder. 
 
 All calculations and rendering are handled by the backend using Python. The generated map is saved as `m_path_map.html` and displayed in the main HTML file using the `<iframe>` tag.
 
@@ -268,6 +271,7 @@ By placing the `m_path_map.html` file in the `static` folder, Flask automaticall
 
 
 ## User Input
+For this project, we also want to take user experience into account. In order to make it easier for users to select the destinations they want to go to, we decided to make it easier for them by adding a dropdown to select available airports in each country. To make it even easier we also added a search filter so that users can see what airports are available in each respective cities. If users want to plan a new trip, we also provide an “uncheck all” feature that unchecks previously checked airports. Once users are done with the selection they can click on “generate map” so that the html can display the map like the ones showed above.
 
 To enhance user experience, the application includes the following features:
 
@@ -301,8 +305,6 @@ The tool is easy to use, accessible for all types of user. Some features could b
 - Depending on your convictions, over-use of the plane can be a problem when organising your trip. The addition of different means of transport (and associated distance calculation formulas), such as car, train or boat, could make FasTravel even more comprehensive.
 - It could also be equipped with a route suggestion tool based on a number of cities to be visited and a number of cities considered essential to the trip. Although this would involve concepts that are far removed from the initial subject, it remains an interesting idea for optimisation.
 
-
----
 
 ---
 
