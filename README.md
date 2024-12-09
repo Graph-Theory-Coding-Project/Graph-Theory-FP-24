@@ -190,6 +190,29 @@ Example interface:
 ![image](https://github.com/user-attachments/assets/9f06d7db-3054-4d1b-9602-6888e008c792)
 
 
+
+
+---
+# Conclusion
+
+## Summary
+So, with a clear idea of the destinations you want to discover, FasTravel allows you to obtain the optimum route thanks to the website powered by a calculation file written in python and some usual notions of ‘Graph Theory’.
+
+
+It goes without saying that the shortest route is generally the fastest, so you can minimise the hours spent travelling. 
+
+
+The tool is easy to use, accessible for all types of user. Some features could be added in the future, let’s see of examples.
+
+
+## Areas of Improvement
+- In order to have more precision, It may be useful not to work with airport addresses, but rather with the addresses of the exact cities that the user wishes to visit. This would mean calculating the distances between the airports and the towns visited if the airport is not in
+- Depending on your convictions, over-use of the plane can be a problem when organising your trip. The addition of different means of transport (and associated distance calculation formulas), such as car, train or boat, could make FasTravel even more comprehensive.
+- It could also be equipped with a route suggestion tool based on a number of cities to be visited and a number of cities considered essential to the trip. Although this would involve concepts that are far removed from the initial subject, it remains an interesting idea for optimisation.
+
+
+---
+
 ---
 
 ## Contribution
